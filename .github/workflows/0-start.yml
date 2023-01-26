@@ -78,7 +78,7 @@ jobs:
           git commit --message="Update resume.md in main"
 
           echo "Push"
-          git push origin main
+          git push -f origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
